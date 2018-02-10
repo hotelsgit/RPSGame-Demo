@@ -22,8 +22,6 @@ public class RPSGameTest {
 	@Test
 	public void testMain() {
 		
-		RPSGame.main(null);
-		
 		playPlan.playGame();
 
 		Mockito.verify(playPlan, Mockito.times(1)).playGame();
