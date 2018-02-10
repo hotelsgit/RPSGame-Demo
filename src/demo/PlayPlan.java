@@ -3,21 +3,20 @@ package demo;
 import java.util.Random;
 
 public class PlayPlan {
-	
+
 	// Constants
-		private final static String ROCK = "rock";
-		private final static String PAPER = "paper";
-		private final static String SCISSORS = "scissors";
+	private final static String ROCK = "rock";
+	private final static String PAPER = "paper";
+	private final static String SCISSORS = "scissors";
 
-		// Change in case you want more or less Rounds
-		private final static int ROUNDS = 100;
-		
-		public PlayPlan() {
-			
-		}
-	
+	// Change in case you want more or less Rounds
+	private final static int ROUNDS = 100;
+
+	public PlayPlan() {
+
+	}
+
 	public void playGame() {
-
 
 		// Default value for player1
 		String player1 = ROCK;
@@ -49,13 +48,12 @@ public class PlayPlan {
 
 		// Show the result
 		System.out.println("Final Score of Rock-Paper-Scissor Game");
-		System.out.println("Player 1 always play ROCK and Wins: "+ player1Wins + " rounds");
+		System.out.println("Player 1 always play ROCK and Wins: " + player1Wins + " rounds");
 		System.out.println("Player 2 play ramdon choice and Wins: " + player2Wins + " rounds");
 		System.out.println("Both Players Draws: " + draw + " rounds");
 
-	
 	}
-		
+
 	/**
 	 * Method that is responsible to compare the items and return the winner
 	 * 

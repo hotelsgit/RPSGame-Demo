@@ -74,7 +74,6 @@ public class PlayPlanTest {
 		String player2 = PAPER;
 		
 		int player2Wins = 0;
-		int draw = 0;
 		
 		int param = 1;
 		
