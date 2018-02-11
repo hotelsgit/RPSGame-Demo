@@ -13,8 +13,7 @@ public class RPSGameTest {
 	
 	@Before
 	public void setup() {
-		
-		rpsGame = new RPSGame(playPlan);
+
 		playPlan = Mockito.mock(PlayPlan.class);
 		
 	}
